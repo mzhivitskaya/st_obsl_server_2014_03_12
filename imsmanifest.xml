@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="dixi_service_standards_12_03_2014"
+			version="1.2" 
+			xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" 
+			xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd  http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+	</metadata>
+	<organizations default="dixi">
+		<organization identifier="Service standards">
+			<title>Стандарты обслуживания</title>
+			<item identifier="it_01" identifierref="it_01Res" parameters="?width=800&amp;height=600">
+				<title>ДИКСИ. Стандарты обслуживания</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="it_01Res" type="webcontent" adlcp:scormtype="sco" href="dixi.html">
+			<file href="dixi.html"/>
+			<dependency identifierref="ALLRESOURCES"/>
+		</resource>
+		<resource identifier="ALLRESOURCES" type="webcontent" adlcp:scormtype="asset">
+			<file href="imsmanifest.xml"/>
+			<file href="adlcp_rootv1p2.xsd"/>
+			<file href="ims_xml.xsd"/>
+			<file href="imscp_rootv1p1p2.xsd"/>
+			<file href="imsmd_rootv1p2p1.xsd"/>
+
+			<file href="dixi.html"/>
+
+			<file href="styles\style.css"/>
+
+			<file href="fonts\dinroundpro-medium-webfont.eot"/>
+			<file href="fonts\dinroundpro-webfont.eot"/>
+			<file href="fonts\DINRoundPro.otf"/>
+			<file href="fonts\DINRoundPro-Black.otf"/>
+			<file href="fonts\DINRoundPro-Bold.otf"/>
+			<file href="fonts\DINRoundPro-Light.otf"/>
+			<file href="fonts\DINRoundPro-Medium.otf"/>
+			<file href="fonts\dinroundpro-medium-webfont.otf"/>
+			<file href="fonts\dinroundpro-webfont.otf"/>
+			<file href="fonts\dinroundpro-medium-webfont.ttf"/>
+			<file href="fonts\dinroundpro-webfont.ttf"/>
+			<file href="fonts\dinroundpro-medium-webfont.woff"/>
+			<file href="fonts\dinroundpro-webfont.woff"/>
+
+			<file href="scripts\Main.js"/>
+
+            <file href="scripts\components\Balloon.js"/>
+            <file href="scripts\components\InfoPanel.js"/>
+            <file href="scripts\components\Man.js"/>
+            <file href="scripts\components\Menu.js"/>
+            <file href="scripts\components\Preloader.js"/>
+            <file href="scripts\components\StandardAnimationMethods.js"/>
+            <file href="scripts\components\Task.js"/>
+            <file href="scripts\components\Test.js"/>
+            <file href="scripts\components\TestInfoPanel.js"/>
+
+			<file href="scripts\framework\caat-min.js"/>
+
+            <file href="scripts\managers\AppManager.js"/>
+            <file href="scripts\managers\ScormManager.js"/>
+            <file href="scripts\managers\ScreenManager.js"/>
+
+			<file href="scripts\scorm\SCORM_API_wrapper.js"/>
+
+            <file href="scripts\slides\Slide.js"/>
+            <file href="scripts\slides\Slide1.js"/>
+            <file href="scripts\slides\Slide2.js"/>
+            <file href="scripts\slides\Slide3.js"/>
+            <file href="scripts\slides\Slide4.js"/>
+            <file href="scripts\slides\Slide4kfu.js"/>
+            <file href="scripts\slides\Slide5.js"/>
+            <file href="scripts\slides\Slide6.js"/>
+            <file href="scripts\slides\Slide7.js"/>
+            <file href="scripts\slides\Slide8.js"/>
+            <file href="scripts\slides\Slide9.js"/>
+            <file href="scripts\slides\Slide10.js"/>
+            <file href="scripts\slides\Slide11.js"/>
+            <file href="scripts\slides\Slide12.js"/>
+            <file href="scripts\slides\Slide13.js"/>
+            <file href="scripts\slides\Slide14.js"/>
+            <file href="scripts\slides\Slide15.js"/>
+            <file href="scripts\slides\Slide16.js"/>
+            <file href="scripts\slides\Slide17.js"/>
+            <file href="scripts\slides\Slide18.js"/>
+            <file href="scripts\slides\Slide19.js"/>
+            <file href="scripts\slides\Slide20.js"/>
+            <file href="scripts\slides\Slide21.js"/>
+            <file href="scripts\slides\Slide22.js"/>
+            <file href="scripts\slides\Slide23.js"/>
+            <file href="scripts\slides\Slide24.js"/>
+
+            <file href="images\circleBubble\tipCircle1.png"/>
+            <file href="images\circleBubble\tipCircle2.png"/>
+            <file href="images\circleBubble\tipCircle3.png"/>
+            <file href="images\circleBubble\tipCircle4.png"/>
+
+            <file href="images\gui\ball.png"/>
+            <file href="images\gui\bottom.png"/>
+            <file href="images\gui\ideas.png"/>
+            <file href="images\gui\info_panel_btn.png"/>
+            <file href="images\gui\left_side.png"/>
+            <file href="images\gui\man_big.png"/>
+            <file href="images\gui\man_small.png"/>
+            <file href="images\gui\next_btn.png"/>
+            <file href="images\gui\racket.png"/>
+            <file href="images\gui\right_side.png"/>
+            <file href="images\gui\tea1.png"/>
+            <file href="images\gui\tea2.png"/>
+            <file href="images\gui\tea3.png"/>
+            <file href="images\gui\ties.png"/>
+            <file href="images\gui\top.png"/>
+
+            <file href="images\menu\back.png"/>
+            <file href="images\menu\bottom_line.png"/>
+            <file href="images\menu\btns.png"/>
+            <file href="images\menu\open_btn.png"/>
+
+            <file href="images\preloader\back.png"/>
+            <file href="images\preloader\first_square.png"/>
+            <file href="images\preloader\man.png"/>
+            <file href="images\preloader\man_.png"/>
+            <file href="images\preloader\square.png"/>
+
+            <file href="images\slide0\diksi.png"/>
+            <file href="images\slide0\hand.png"/>
+            <file href="images\slide0\hour_arrow.png"/>
+            <file href="images\slide0\idea_orange.png"/>
+            <file href="images\slide0\man_help.png"/>
+            <file href="images\slide0\menu_hint.png"/>
+            <file href="images\slide0\minute_arrow.png"/>
+            <file href="images\slide0\next.png"/>
+            <file href="images\slide0\target.png"/>
+
+            <file href="images\slide1\line1.png"/>
+            <file href="images\slide1\man.png"/>
+            <file href="images\slide1\star.png"/>
+            <file href="images\slide1\text1.png"/>
+            <file href="images\slide1\text1b.png"/>
+            <file href="images\slide1\text1t.png"/>
+            <file href="images\slide1\text2.png"/>
+            <file href="images\slide1\text31.png"/>
+            <file href="images\slide1\text32.png"/>
+            <file href="images\slide1\text33.png"/>
+            <file href="images\slide1\text34.png"/>
+            <file href="images\slide1\text35.png"/>
+
+            <file href="images\slide2\door.png"/>
+            <file href="images\slide2\man.png"/>
+            <file href="images\slide2\man2.png"/>
+            <file href="images\slide2\man3.png"/>
+            <file href="images\slide2\man21.png"/>
+            <file href="images\slide2\man31.png"/>
+            <file href="images\slide2\text1.png"/>
+            <file href="images\slide2\text1b.png"/>
+            <file href="images\slide2\text1t.png"/>
+            <file href="images\slide2\text2.png"/>
+            <file href="images\slide2\text2t.png"/>
+
+            <file href="images\slide3\kpp1.png"/>
+            <file href="images\slide3\kpp2.png"/>
+            <file href="images\slide3\kpp3.png"/>
+            <file href="images\slide3\man.png"/>
+            <file href="images\slide3\semafor1.png"/>
+            <file href="images\slide3\semafor2.png"/>
+            <file href="images\slide3\telega.png"/>
+
+            <file href="images\slide4\line1.png"/>
+            <file href="images\slide4\man.png"/>
+            <file href="images\slide4\text1.png"/>
+            <file href="images\slide4\text2.png"/>
+            <file href="images\slide4\text2l.png"/>
+            <file href="images\slide4\text3.png"/>
+            <file href="images\slide4\text3l.png"/>
+            <file href="images\slide4\text4.png"/>
+            <file href="images\slide4\text4l.png"/>
+            <file href="images\slide4\text5.png"/>
+            <file href="images\slide4\text5l.png"/>
+            <file href="images\slide4\wand.png"/>
+
+            <file href="images\slide4kfu\man.png"/>
+            <file href="images\slide4kfu\um.png"/>
+            <file href="images\slide4kfu\um2.png"/>
+            <file href="images\slide4kfu\cup.png"/>
+            <file href="images\slide4kfu\stairs.png"/>
+
+            <file href="images\slide5\sign1.png"/>
+            <file href="images\slide5\sign1_green.png"/>
+            <file href="images\slide5\sign2.png"/>
+            <file href="images\slide5\sign2_green.png"/>
+            <file href="images\slide5\sign3.png"/>
+            <file href="images\slide5\sign3_green.png"/>
+            <file href="images\slide5\sign4.png"/>
+            <file href="images\slide5\sign4_orange.png"/>
+            <file href="images\slide5\sign5.png"/>
+            <file href="images\slide5\sign5_orange.png"/>
+            <file href="images\slide5\sign6.png"/>
+            <file href="images\slide5\sign6_orange.png"/>
+            <file href="images\slide5\sign7.png"/>
+            <file href="images\slide5\sign7_orange.png"/>
+            <file href="images\slide5\sign8.png"/>
+            <file href="images\slide5\sign8_orange.png"/>
+            <file href="images\slide5\sign9.png"/>
+            <file href="images\slide5\sign9_orange.png"/>
+            <file href="images\slide5\sign10.png"/>
+            <file href="images\slide5\sign10_orange.png"/>
+
+            <file href="images\slide6\man.png"/>
+            <file href="images\slide6\smilemetr.png"/>
+            <file href="images\slide6\smile_sad.png"/>
+            <file href="images\slide6\smile_normal.png"/>
+            <file href="images\slide6\smile_happy.png"/>
+            <file href="images\slide6\smilemetr_arrow.png"/>
+            <file href="images\slide6\smileNext.png"/>
+            <file href="images\slide6\tip11.png"/>
+            <file href="images\slide6\tip12.png"/>
+            <file href="images\slide6\tip13.png"/>
+            <file href="images\slide6\smileText1.png"/>
+            <file href="images\slide6\smileText3.png"/>
+            <file href="images\slide6\text1.png"/>
+            <file href="images\slide6\text2.png"/>
+            <file href="images\slide6\text3.png"/>
+            <file href="images\slide6\text4.png"/>
+            <file href="images\slide6\text5.png"/>
+            <file href="images\slide6\text6.png"/>
+            <file href="images\slide6\text7.png"/>
+            <file href="images\slide6\text8.png"/>
+
+            <file href="images\slide7\man.png"/>
+            <file href="images\slide7\kassa.png"/>
+            <file href="images\slide7\semafor.png"/>
+            <file href="images\slide7\semaforGreen1.png"/>
+            <file href="images\slide7\semaforGreen2.png"/>
+            <file href="images\slide7\semaforRed1.png"/>
+            <file href="images\slide7\semaforRed2.png"/>
+            <file href="images\slide7\lenta.png"/>
+            <file href="images\slide7\lentaWheelL.png"/>
+            <file href="images\slide7\lentaWheelR.png"/>
+            <file href="images\slide7\apple.png"/>
+
+            <file href="images\slide8\back.png"/>
+            <file href="images\slide8\text1.png"/>
+            <file href="images\slide8\znak1.png"/>
+            <file href="images\slide8\men.png"/>
+            <file href="images\slide8\men2.png"/>
+            <file href="images\slide8\menTipBack.png"/>
+            <file href="images\slide8\menTip1.png"/>
+            <file href="images\slide8\menTip2.png"/>
+            <file href="images\slide8\tipBack.png"/>
+            <file href="images\slide8\tipText1.png"/>
+            <file href="images\slide8\tipText2.png"/>
+            <file href="images\slide8\tipText3.png"/>
+            <file href="images\slide8\tipText4.png"/>
+            <file href="images\slide8\tipText5.png"/>
+            <file href="images\slide8\next.png"/>
+
+            <file href="images\slide9\men.png"/>
+            <file href="images\slide9\men2.png"/>
+            <file href="images\slide9\tipNext.png"/>
+            <file href="images\slide9\tip1_1.png"/>
+            <file href="images\slide9\tip1_2.png"/>
+            <file href="images\slide9\tip2_1.png"/>
+            <file href="images\slide9\tip2_2.png"/>
+            <file href="images\slide9\tip2_end.png"/>
+            <file href="images\slide9\tip3.png"/>
+            <file href="images\slide9\tip4_1.png"/>
+            <file href="images\slide9\tip4_2.png"/>
+            <file href="images\slide9\tip5_1.png"/>
+            <file href="images\slide9\tip5_2.png"/>
+
+            <file href="images\slide10\men.png"/>
+            <file href="images\slide10\men2.png"/>
+            <file href="images\slide10\line1.png"/>
+            <file href="images\slide10\tip1.png"/>
+            <file href="images\slide10\tip2.png"/>
+            <file href="images\slide10\tip3.png"/>
+            <file href="images\slide10\textPlace.png"/>
+            <file href="images\slide10\textNext.png"/>
+            <file href="images\slide10\text1.png"/>
+            <file href="images\slide10\text2.png"/>
+            <file href="images\slide10\text3.png"/>
+
+            <file href="images\slide11\men1.png"/>
+            <file href="images\slide11\men2.png"/>
+            <file href="images\slide11\men3.png"/>
+            <file href="images\slide11\tip1.png"/>
+            <file href="images\slide11\tip2.png"/>
+            <file href="images\slide11\tip3.png"/>
+            <file href="images\slide11\tip4.png"/>
+            <file href="images\slide11\tip5.png"/>
+            <file href="images\slide11\tip6.png"/>
+            <file href="images\slide11\tip1_text.png"/>
+            <file href="images\slide11\tip2_text.png"/>
+            <file href="images\slide11\tip3_text.png"/>
+            <file href="images\slide11\tip4_text.png"/>
+            <file href="images\slide11\tip5_text.png"/>
+            <file href="images\slide11\tip6_text.png"/>
+            <file href="images\slide11\textPlace1.png"/>
+            <file href="images\slide11\textPlace2.png"/>
+            <file href="images\slide11\text1.png"/>
+            <file href="images\slide11\text2.png"/>
+            <file href="images\slide11\text3.png"/>
+            <file href="images\slide11\textNext.png"/>
+
+            <file href="images\slide12\men1.png"/>
+            <file href="images\slide12\men2.png"/>
+            <file href="images\slide12\men3.png"/>
+            <file href="images\slide12\line.png"/>
+            <file href="images\slide12\line_text.png"/>
+            <file href="images\slide12\road1.png"/>
+            <file href="images\slide12\road1_text1.png"/>
+            <file href="images\slide12\road1_text2.png"/>
+            <file href="images\slide12\road2.png"/>
+            <file href="images\slide12\road2_text1.png"/>
+            <file href="images\slide12\road2_text2.png"/>
+            <file href="images\slide12\road3.png"/>
+            <file href="images\slide12\road3_text1.png"/>
+            <file href="images\slide12\road3_text2.png"/>
+            <file href="images\slide12\tip1.png"/>
+            <file href="images\slide12\tip1_text.png"/>
+            <file href="images\slide12\tip1.png"/>
+            <file href="images\slide12\tip2_text.png"/>
+            <file href="images\slide12\tip1.png"/>
+            <file href="images\slide12\tip3_text.png"/>
+            <file href="images\slide12\textNext.png"/>
+
+            <file href="images\slide13\men1.png"/>
+            <file href="images\slide13\men2.png"/>
+            <file href="images\slide13\lights.png"/>
+            <file href="images\slide13\orange.png"/>
+            <file href="images\slide13\green.png"/>
+            <file href="images\slide13\gray.png"/>
+            <file href="images\slide13\tip1.png"/>
+            <file href="images\slide13\tip1_text.png"/>
+            <file href="images\slide13\textNext.png"/>
+
+            <file href="images\slide14\man1.png"/>
+            <file href="images\slide14\man2.png"/>
+            <file href="images\slide14\man3.png"/>
+            <file href="images\slide14\diagramm.png"/>
+
+            <file href="images\slide15\man.png"/>
+            <file href="images\slide15\carriage1.png"/>
+            <file href="images\slide15\carriage2.png"/>
+            <file href="images\slide15\carriage3.png"/>
+            <file href="images\slide15\carriage4.png"/>
+            <file href="images\slide15\carriage5.png"/>
+            <file href="images\slide15\cloud1.png"/>
+            <file href="images\slide15\cloud2.png"/>
+            <file href="images\slide15\cloud3.png"/>
+
+            <file href="images\slide16\man.png"/>
+            <file href="images\slide16\sign1.png"/>
+            <file href="images\slide16\sign2.png"/>
+            <file href="images\slide16\sign3.png"/>
+            <file href="images\slide16\sign4.png"/>
+            <file href="images\slide16\sign5.png"/>
+            <file href="images\slide16\sign6.png"/>
+
+            <file href="images\slide17\main_pic.png"/>
+            <file href="images\slide17\ok_button.png"/>
+            <file href="images\slide17\qest_button.png"/>
+            <file href="images\slide17\next_button.png"/>
+            <file href="images\slide17\right.png"/>
+            <file href="images\slide17\wrong.png"/>
+            <file href="images\slide17\info.png"/>
+            <file href="images\slide17\transparent.png"/>
+
+            <file href="images\slide18\man.png"/>
+            <file href="images\slide18\mirror1.png"/>
+            <file href="images\slide18\mirror2.png"/>
+            <file href="images\slide18\mirror3.png"/>
+            <file href="images\slide18\mirror4.png"/>
+            <file href="images\slide18\mirror5.png"/>
+            <file href="images\slide18\mirror6.png"/>
+            <file href="images\slide18\mirror7.png"/>
+
+            <file href="images\slide19\cloud1.png"/>
+            <file href="images\slide19\cloud2.png"/>
+            <file href="images\slide19\queen.png"/>
+            <file href="images\slide19\queen2.png"/>
+            <file href="images\slide19\sign.png"/>
+            <file href="images\slide19\man.png"/>
+            <file href="images\slide19\cloud_count1.png"/>
+            <file href="images\slide19\cloud_count2.png"/>
+            <file href="images\slide19\cloud_count3.png"/>
+            <file href="images\slide19\cloud_count4.png"/>
+            <file href="images\slide19\cloud_count5.png"/>
+
+            <file href="images\slide20\cloud1.png"/>
+            <file href="images\slide20\queen.png"/>
+            <file href="images\slide20\queen2.png"/>
+            <file href="images\slide20\sign.png"/>
+            <file href="images\slide20\man.png"/>
+            <file href="images\slide20\cloud_count1.png"/>
+            <file href="images\slide20\cloud_count0.png"/>
+
+            <file href="images\slide21\pencil.png"/>
+            <file href="images\slide21\paper1.png"/>
+            <file href="images\slide21\paper2.png"/>
+            <file href="images\slide21\paper3.png"/>
+            <file href="images\slide21\paper4.png"/>
+            <file href="images\slide21\main_pic.png"/>
+
+            <file href="images\slide22\king.png"/>
+            <file href="images\slide22\man.png"/>
+            <file href="images\slide22\task.png"/>
+            <file href="images\slide22\cloud1.png"/>
+            <file href="images\slide22\cloud2.png"/>
+            <file href="images\slide22\cloud3.png"/>
+            <file href="images\slide22\bad.png"/>
+            <file href="images\slide22\good.png"/>
+
+            <file href="images\slide23\man.png"/>
+            <file href="images\slide23\king1.png"/>
+            <file href="images\slide23\king2.png"/>
+            <file href="images\slide23\sign.png"/>
+
+            <file href="images\test\button.png"/>
+            <file href="images\test\checkbox.png"/>
+            <file href="images\test\lenin_bad.png"/>
+            <file href="images\test\lenin_bad1.png"/>
+            <file href="images\test\lenin_good.png"/>
+            <file href="images\test\lenin_good1.png"/>
+            <file href="images\test\line.png"/>
+            <file href="images\test\number_frame.png"/>
+            <file href="images\test\radio_button.png"/>
+            <file href="images\test\tip_1.png"/>
+		</resource>
+	</resources>
+</manifest>

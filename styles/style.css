@@ -1,0 +1,31 @@
+﻿@font-face {
+    font-family: 'DINRoundPro';
+    src: url('../fonts/dinroundpro-webfont.eot');
+    src: url('../fonts/dinroundpro-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/dinroundpro-webfont.woff') format('woff'),
+    url('../fonts/dinroundpro-webfont.otf') format('otf'),
+    url('../fonts/dinroundpro-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINRoundPro-Medium';
+    src: url('../fonts/dinroundpro-medium-webfont.eot');
+    src: url('../fonts/dinroundpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/dinroundpro-medium-webfont.woff') format('woff'),
+    url('../fonts/dinroundpro-medium-webfont.otf') format('otf'),
+    url('../fonts/dinroundpro-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 800px;
+    height: 600px;
+    background-color: #ffffff;
+}
